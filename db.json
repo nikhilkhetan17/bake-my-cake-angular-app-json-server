@@ -1,9 +1,346 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Berries Summer Cupcakes",
+      "price": 299,
+      "rating": 4.5,
+      "earliestDelivery": "Today",
+      "desc": "per cup-cake",
+      "category": "cupCake"
+    },
+    {
+      "id": 2,
+      "name": "Brownies Different Flavor",
+      "price": 399,
+      "rating": 4.7,
+      "earliestDelivery": "Today",
+      "desc": "per brownie",
+      "category": "brownie"
+    },
+    {
+      "id": 3,
+      "name": "Butter Cookies",
+      "price": 199,
+      "rating": 4.6,
+      "earliestDelivery": "Today",
+      "desc": "per cookie",
+      "category": "cookie"
+    },
+    {
+      "id": 4,
+      "name": "Cherry Jelly Cheesecake",
+      "price": 499,
+      "rating": 4.9,
+      "earliestDelivery": "Today",
+      "desc": "per half kg",
+      "category": "cake"
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Blueberries Cake",
+      "price": 699,
+      "rating": 4.8,
+      "earliestDelivery": "Today",
+      "desc": "per half kg",
+      "category": "cake"
+    },
+    {
+      "id": 6,
+      "name": "Chocolate Bonbons",
+      "price": 599,
+      "rating": 4.4,
+      "earliestDelivery": "Today",
+      "desc": "per bonbon",
+      "category": "cookie"
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Cookies",
+      "price": 499,
+      "rating": 4.5,
+      "earliestDelivery": "Today",
+      "desc": "per cookie",
+      "category": "cookie"
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Cupcake",
+      "price": 199,
+      "rating": 4.8,
+      "earliestDelivery": "Today",
+      "desc": "per cup-cake",
+      "category": "cupCake"
+    },
+    {
+      "id": 9,
+      "name": "Chocolate Summer Berries",
+      "price": 299,
+      "rating": 4.6,
+      "earliestDelivery": "Today",
+      "desc": "per half kg",
+      "category": "cake"
+    },
+    {
+      "id": 10,
+      "name": "Classic Cheesecake",
+      "price": 399,
+      "rating": 4.9,
+      "earliestDelivery": "Today",
+      "desc": "per half kg",
+      "category": "cake"
+    },
+    {
+      "id": 11,
+      "name": "Cookies Cream Cake",
+      "price": 599,
+      "rating": 4.5,
+      "earliestDelivery": "Today",
+      "desc": "per half kg",
+      "category": "cake"
+    },
+    {
+      "id": 12,
+      "name": "Easter Cupcakes",
+      "price": 199,
+      "rating": 4.7,
+      "earliestDelivery": "Today",
+      "desc": "per cup-cake",
+      "category": "cupCake"
+    },
+    {
+      "id": 13,
+      "name": "Fruit Cake",
+      "price": 599,
+      "rating": 4.8,
+      "earliestDelivery": "Today",
+      "desc": "per half kg",
+      "category": "cake"
+    },
+    {
+      "id": 14,
+      "name": "Isometric chocolate brownies",
+      "price": 199,
+      "rating": 4.3,
+      "earliestDelivery": "Today",
+      "desc": "per brownie",
+      "category": "brownie"
+    },
+    {
+      "id": 15,
+      "name": "Monster Theme Cake",
+      "price": 399,
+      "rating": 4.9,
+      "earliestDelivery": "Today",
+      "desc": "per half kg",
+      "category": "cake"
+    },
+    {
+      "id": 16,
+      "name": "Muffin Devil Horns",
+      "price": 299,
+      "rating": 4.5,
+      "earliestDelivery": "Today",
+      "desc": "per muffin",
+      "category": "cupCake"
+    },
+    {
+      "id": 17,
+      "name": "Muffin Ghost",
+      "price": 249,
+      "rating": 4.7,
+      "earliestDelivery": "Today",
+      "desc": "per muffin",
+      "category": "cupCake"
+    },
+    {
+      "id": 18,
+      "name": "Pumpkin Spice Cupcakes",
+      "price": 199,
+      "rating": 4.6,
+      "earliestDelivery": "Today",
+      "desc": "per cup-cake",
+      "category": "cupCake"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "cakeRequests": [
+    {
+      "messageOnCake": "James",
+      "deliveryDate": "06-09-2023",
+      "email": "test123@gmail.com",
+      "phone": 9653214505,
+      "pincode": 963654,
+      "address": "123, washington DC",
+      "eggEggles": "withoutEgg",
+      "cakeName": "Cherry Jelly Cheesecake",
+      "quantity": 2,
+      "price": 499,
+      "totalPrice": 998,
+      "id": 1
+    },
+    {
+      "messageOnCake": "Alice",
+      "deliveryDate": "05-09-2023",
+      "email": "alice@example.com",
+      "phone": 1234567890,
+      "pincode": 123456,
+      "address": "123 Main St, Anytown",
+      "eggEggles": "withEgg",
+      "cakeName": "Chocolate Summer Berries",
+      "quantity": 2,
+      "price": 299,
+      "totalPrice": 598,
+      "id": 2
+    },
+    {
+      "messageOnCake": "Bob",
+      "deliveryDate": "06-09-2023",
+      "email": "bob@example.com",
+      "phone": 9876543210,
+      "pincode": 987654,
+      "address": "456 Elm St, Somewhere",
+      "eggEggles": "withoutEgg",
+      "cakeName": "Monster Theme Cake",
+      "quantity": 1,
+      "price": 399,
+      "totalPrice": 399,
+      "id": 3
+    },
+    {
+      "messageOnCake": "Sarah",
+      "deliveryDate": "07-09-2023",
+      "email": "sarah@example.com",
+      "phone": 5551234567,
+      "pincode": 543210,
+      "address": "789 Oak Rd, Anotherplace",
+      "eggEggles": "withEgg",
+      "cakeName": "Monster Theme Cake",
+      "quantity": 3,
+      "price": 399,
+      "totalPrice": 1197,
+      "id": 4
+    },
+    {
+      "messageOnCake": "David",
+      "deliveryDate": "08-09-2023",
+      "email": "david@example.com",
+      "phone": 7899876543,
+      "pincode": 876543,
+      "address": "101 Pine Ave, Elsewhere",
+      "eggEggles": "withoutEgg",
+      "cakeName": "Fruit Cake",
+      "quantity": 1,
+      "price": 599,
+      "totalPrice": 599,
+      "id": 5
+    },
+    {
+      "messageOnCake": "Linda",
+      "deliveryDate": "09-09-2023",
+      "email": "linda@example.com",
+      "phone": 1237894560,
+      "pincode": 987123,
+      "address": "555 Maple Ln, Somewhen",
+      "eggEggles": "withEgg",
+      "cakeName": "Fruit Cake",
+      "quantity": 2,
+      "price": 599,
+      "totalPrice": 1198,
+      "id": 6
+    },
+    {
+      "messageOnCake": "Chris",
+      "deliveryDate": "10-09-2023",
+      "email": "chris@example.com",
+      "phone": 4567891230,
+      "pincode": 456789,
+      "address": "777 Cedar St, Nowhere",
+      "eggEggles": "withoutEgg",
+      "cakeName": "Cherry Jelly Cheesecake",
+      "quantity": 2,
+      "price": 499,
+      "totalPrice": 998,
+      "id": 7
+    },
+    {
+      "messageOnCake": "Emma",
+      "deliveryDate": "11-09-2023",
+      "email": "emma@example.com",
+      "phone": 7890123456,
+      "pincode": 789012,
+      "address": "888 Birch Rd, Anywhen",
+      "eggEggles": "withEgg",
+      "cakeName": "Cherry Jelly Cheesecake",
+      "quantity": 1,
+      "price": 499,
+      "totalPrice": 499,
+      "id": 8
+    },
+    {
+      "messageOnCake": "Michael",
+      "deliveryDate": "12-09-2023",
+      "email": "michael@example.com",
+      "phone": 1234567890,
+      "pincode": 123456,
+      "address": "999 Willow Ave, Everyplace",
+      "eggEggles": "withoutEgg",
+      "cakeName": "Berries Summer Cupcakes",
+      "quantity": 1,
+      "price": 299,
+      "totalPrice": 299,
+      "id": 9
+    },
+    {
+      "deliveryDate": "06-09-2023",
+      "email": "olivia@example.com",
+      "phone": 9876543210,
+      "pincode": 987654,
+      "address": "111 Rose Ln, Nowhen",
+      "cakeName": "Butter Cookies",
+      "quantity": 2,
+      "price": 199,
+      "totalPrice": 398,
+      "id": 10
+    },
+    {
+      "messageOnCake": "Jame",
+      "deliveryDate": "09-09-2023",
+      "email": "test123@gmail.com",
+      "phone": 9009165874,
+      "pincode": 569875,
+      "eggEggles": "withoutEgg",
+      "address": "123, washington DC",
+      "cakeName": "Cherry Jelly Cheesecake",
+      "quantity": 1,
+      "price": 499,
+      "totalPrice": 499,
+      "id": 11
+    },
+    {
+      "deliveryDate": "10-10-2023",
+      "email": "nikhilkhetan22@gmail.com",
+      "phone": 8871210094,
+      "pincode": 492001,
+      "address": "HDD-81, Phase-3, Kabir Nagar",
+      "quantity": 3,
+      "eggEggles": "withoutEgg",
+      "cakeName": "Cherry Jelly Cheesecake",
+      "price": 499,
+      "totalPrice": 1497,
+      "id": 12
+    },
+    {
+      "deliveryDate": "10-10-2023",
+      "email": "nikhilkhetan22@gmail.com",
+      "phone": 8819989891,
+      "pincode": 492001,
+      "address": "HDD-81, Phase-3, Kabir Nagar",
+      "eggEggles": "withoutEgg",
+      "quantity": 5,
+      "cakeName": "Chocolate Cookies",
+      "price": 499,
+      "totalPrice": 2495,
+      "id": 13
+    }
+  ]
 }
