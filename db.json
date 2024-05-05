@@ -315,32 +315,6 @@
       "price": 499,
       "totalPrice": 499,
       "id": 11
-    },
-    {
-      "deliveryDate": "10-10-2023",
-      "email": "nikhilkhetan22@gmail.com",
-      "phone": 8871210094,
-      "pincode": 492001,
-      "address": "HDD-81, Phase-3, Kabir Nagar",
-      "quantity": 3,
-      "eggEggles": "withoutEgg",
-      "cakeName": "Cherry Jelly Cheesecake",
-      "price": 499,
-      "totalPrice": 1497,
-      "id": 12
-    },
-    {
-      "deliveryDate": "10-10-2023",
-      "email": "nikhilkhetan22@gmail.com",
-      "phone": 8819989891,
-      "pincode": 492001,
-      "address": "HDD-81, Phase-3, Kabir Nagar",
-      "eggEggles": "withoutEgg",
-      "quantity": 5,
-      "cakeName": "Chocolate Cookies",
-      "price": 499,
-      "totalPrice": 2495,
-      "id": 13
     }
   ]
 }
